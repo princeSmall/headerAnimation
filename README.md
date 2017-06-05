@@ -1,6 +1,6 @@
 # headerAnimation
 
-#####滚动或拖动结束后的位置
+##### 滚动或拖动结束后的位置
 <pre>
 - (void)scrollViewWillEndDragging:(UIScrollView *)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(inout CGPoint *)targetContentOffset {
 
