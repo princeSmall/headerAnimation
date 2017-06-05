@@ -16,8 +16,32 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
+    UIButton * backBtn = [[UIButton alloc]initWithFrame:CGRectMake(30, 30, 30, 30)];
+   [backBtn setBackgroundImage:[UIImage imageNamed:@"icon_close"] forState:UIControlStateNormal];
+    [backBtn addTarget:self action:@selector(viewReture) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:backBtn];
     // Do any additional setup after loading the view.
 }
+-(void)viewWillAppear:(BOOL)animated{
+     [super viewWillAppear:animated];
+    self.navigationController.navigationBar.hidden = NO;
+}
+-(void)viewReture{
+    [self dismissViewControllerAnimated:YES completion:nil];
+
+}
+-(void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    //给model赋值
+}
+-(Model *)model{
+    if (_model == nil) {
+        _model = [[Model alloc]init];
+    }
+    return _model;
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

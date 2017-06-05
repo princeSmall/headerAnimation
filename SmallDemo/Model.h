@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface Model : NSObject
+@property (nonatomic,copy)NSString * name;
+@property (nonatomic,strong)NSMutableArray * labelArray;
+@property (nonatomic,strong)NSMutableArray * infoArray;
+@property (nonatomic,strong)NSMutableArray * aksArray;
 
 @end

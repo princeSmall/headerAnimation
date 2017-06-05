@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Model.h"
 
 @interface TableViewCell : UITableViewCell
-
+@property (weak, nonatomic) IBOutlet UIView *cellView;
+@property (weak, nonatomic) IBOutlet UILabel *infoLabel;
+@property (nonatomic,strong) Model * model;
+-(void)updateUI;
 @end

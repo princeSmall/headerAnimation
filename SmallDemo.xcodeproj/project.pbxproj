@@ -16,6 +16,14 @@
 		5DDEEBED1EE1395C0069AEFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DDEEBEB1EE1395C0069AEFD /* LaunchScreen.storyboard */; };
 		5DDEEBF81EE1395C0069AEFD /* SmallDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDEEBF71EE1395C0069AEFD /* SmallDemoTests.m */; };
 		5DDEEC031EE1395C0069AEFD /* SmallDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDEEC021EE1395C0069AEFD /* SmallDemoUITests.m */; };
+		5DDEEC131EE150130069AEFD /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDEEC111EE150130069AEFD /* TableViewCell.m */; };
+		5DDEEC141EE150130069AEFD /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DDEEC121EE150130069AEFD /* TableViewCell.xib */; };
+		5DDEEC1B1EE15F340069AEFD /* LabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDEEC1A1EE15F340069AEFD /* LabelViewController.m */; };
+		5DDEEC1E1EE160520069AEFD /* infoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDEEC1D1EE160520069AEFD /* infoViewController.m */; };
+		5DDEEC211EE160740069AEFD /* askViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDEEC201EE160740069AEFD /* askViewController.m */; };
+		5DDEEC241EE160BB0069AEFD /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDEEC231EE160BB0069AEFD /* Model.m */; };
+		5DDEEC281EE24E4E0069AEFD /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDEEC261EE24E4E0069AEFD /* CollectionViewCell.m */; };
+		5DDEEC291EE24E4E0069AEFD /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DDEEC271EE24E4E0069AEFD /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,20 @@
 		5DDEEBFE1EE1395C0069AEFD /* SmallDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmallDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DDEEC021EE1395C0069AEFD /* SmallDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmallDemoUITests.m; sourceTree = "<group>"; };
 		5DDEEC041EE1395C0069AEFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DDEEC101EE150130069AEFD /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		5DDEEC111EE150130069AEFD /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		5DDEEC121EE150130069AEFD /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		5DDEEC191EE15F340069AEFD /* LabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelViewController.h; sourceTree = "<group>"; };
+		5DDEEC1A1EE15F340069AEFD /* LabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelViewController.m; sourceTree = "<group>"; };
+		5DDEEC1C1EE160520069AEFD /* infoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = infoViewController.h; sourceTree = "<group>"; };
+		5DDEEC1D1EE160520069AEFD /* infoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = infoViewController.m; sourceTree = "<group>"; };
+		5DDEEC1F1EE160730069AEFD /* askViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = askViewController.h; sourceTree = "<group>"; };
+		5DDEEC201EE160740069AEFD /* askViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = askViewController.m; sourceTree = "<group>"; };
+		5DDEEC221EE160BB0069AEFD /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		5DDEEC231EE160BB0069AEFD /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		5DDEEC251EE24E4E0069AEFD /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		5DDEEC261EE24E4E0069AEFD /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		5DDEEC271EE24E4E0069AEFD /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +125,11 @@
 		5DDEEBD91EE1395C0069AEFD /* SmallDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5DDEEC2C1EE24E680069AEFD /* Controller */,
+				5DDEEC2B1EE24E640069AEFD /* Model */,
+				5DDEEC2A1EE24E610069AEFD /* View */,
 				5DDEEBDD1EE1395C0069AEFD /* AppDelegate.h */,
 				5DDEEBDE1EE1395C0069AEFD /* AppDelegate.m */,
-				5DDEEBE01EE1395C0069AEFD /* ViewController.h */,
-				5DDEEBE11EE1395C0069AEFD /* ViewController.m */,
 				5DDEEBE31EE1395C0069AEFD /* Main.storyboard */,
 				5DDEEBE91EE1395C0069AEFD /* Assets.xcassets */,
 				5DDEEBEB1EE1395C0069AEFD /* LaunchScreen.storyboard */,
@@ -141,6 +164,43 @@
 				5DDEEC041EE1395C0069AEFD /* Info.plist */,
 			);
 			path = SmallDemoUITests;
+			sourceTree = "<group>";
+		};
+		5DDEEC2A1EE24E610069AEFD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5DDEEC251EE24E4E0069AEFD /* CollectionViewCell.h */,
+				5DDEEC261EE24E4E0069AEFD /* CollectionViewCell.m */,
+				5DDEEC271EE24E4E0069AEFD /* CollectionViewCell.xib */,
+				5DDEEC101EE150130069AEFD /* TableViewCell.h */,
+				5DDEEC111EE150130069AEFD /* TableViewCell.m */,
+				5DDEEC121EE150130069AEFD /* TableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5DDEEC2B1EE24E640069AEFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5DDEEC221EE160BB0069AEFD /* Model.h */,
+				5DDEEC231EE160BB0069AEFD /* Model.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5DDEEC2C1EE24E680069AEFD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5DDEEBE01EE1395C0069AEFD /* ViewController.h */,
+				5DDEEBE11EE1395C0069AEFD /* ViewController.m */,
+				5DDEEC1C1EE160520069AEFD /* infoViewController.h */,
+				5DDEEC1D1EE160520069AEFD /* infoViewController.m */,
+				5DDEEC1F1EE160730069AEFD /* askViewController.h */,
+				5DDEEC201EE160740069AEFD /* askViewController.m */,
+				5DDEEC191EE15F340069AEFD /* LabelViewController.h */,
+				5DDEEC1A1EE15F340069AEFD /* LabelViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +310,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DDEEBED1EE1395C0069AEFD /* LaunchScreen.storyboard in Resources */,
+				5DDEEC141EE150130069AEFD /* TableViewCell.xib in Resources */,
 				5DDEEBEA1EE1395C0069AEFD /* Assets.xcassets in Resources */,
 				5DDEEBE51EE1395C0069AEFD /* Main.storyboard in Resources */,
+				5DDEEC291EE24E4E0069AEFD /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,9 +339,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DDEEBE81EE1395C0069AEFD /* SmallDemo.xcdatamodeld in Sources */,
+				5DDEEC1E1EE160520069AEFD /* infoViewController.m in Sources */,
 				5DDEEBE21EE1395C0069AEFD /* ViewController.m in Sources */,
+				5DDEEC241EE160BB0069AEFD /* Model.m in Sources */,
 				5DDEEBDF1EE1395C0069AEFD /* AppDelegate.m in Sources */,
+				5DDEEC211EE160740069AEFD /* askViewController.m in Sources */,
+				5DDEEC281EE24E4E0069AEFD /* CollectionViewCell.m in Sources */,
+				5DDEEC131EE150130069AEFD /* TableViewCell.m in Sources */,
 				5DDEEBDC1EE1395C0069AEFD /* main.m in Sources */,
+				5DDEEC1B1EE15F340069AEFD /* LabelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

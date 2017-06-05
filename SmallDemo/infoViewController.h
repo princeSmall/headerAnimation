@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Model.h"
 
 @interface infoViewController : UIViewController
+@property (nonatomic,strong)Model * model;
 
 @end

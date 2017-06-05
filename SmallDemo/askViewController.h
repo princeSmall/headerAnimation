@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Model.h"
 
 @interface askViewController : UIViewController
+@property (nonatomic,strong)Model * model;
 
 @end

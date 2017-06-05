@@ -14,6 +14,12 @@
     [super awakeFromNib];
     // Initialization code
 }
+-(void)updateUI{
+    self.cellView.layer.masksToBounds = YES;
+    self.cellView.layer.cornerRadius = 20;
+    self.cellView.backgroundColor = [UIColor whiteColor];
+    self.cellView.alpha = 0.4;
+}
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
